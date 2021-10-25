@@ -1,4 +1,4 @@
-# SAU-Exploration -- a simple and efficient exploration algorithm with deep networks
+# SAU-Exploration
 
 This is the project site for the paper
 > Rong Zhu and Mattia Rigotti, "Deep Bandits Show-Off: Simple and Efficient Exploration with Deep Networks", in Advances in Neural Information Processing Systems 34 (NeurIPS), Dec. 2021 [[arXiv:2105.04683](https://arxiv.org/abs/2105.04683)]
@@ -19,7 +19,8 @@ These can be installed using `pip` by running:
 
 ## Code usage
 
-Let's look at a basic example of how to use the code (which you can execute with the jupyter notebook). In this example we want to use *SAU-Neural-UCB* (SAU-UCB combined with at Neural Network) to tackle the the *Statlog bandit problem*, a contextual bandit problem based on the Shuttle Statlog Dataset in the UCI machine learning repository:
+Let's look at a basic example of how to use the code (which you can execute with the jupyter notebook [run_basic_example.ipynb](https://github.com/IBM/sau-explore/blob/master/run_basic_example.ipynb) in the repository.
+In this example we will use *SAU-Neural-UCB* (SAU-UCB combined with at Neural Network) to tackle the the *Statlog bandit problem*, a contextual bandit problem based on the Shuttle Statlog Dataset in the UCI machine learning repository:
 
 
 ```python
@@ -93,7 +94,7 @@ plt.show()
 ![png](figs/run_basic_example_9_0.png)
 
 
-### Deep Contextual bandits results in paper
+### Paper results
 
 The script `run_simple_example.py` reproduces the main deep contextual bandit results of the paper:
 
