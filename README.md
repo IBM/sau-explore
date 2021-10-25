@@ -96,7 +96,7 @@ plt.show()
 
 ### Paper results
 
-The script `run_simple_example.py` reproduces the main deep contextual bandit results of the paper:
+The script `run_bandit_experiment.py` reproduces the main deep contextual bandit results of the paper:
 
 
 ```bash
