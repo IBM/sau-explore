@@ -4,7 +4,7 @@ This is the project site for the paper
 > Rong Zhu and Mattia Rigotti, "Deep Bandits Show-Off: Simple and Efficient Exploration with Deep Networks", in Advances in Neural Information Processing Systems 34 (NeurIPS), Dec. 2021 [[arXiv:2105.04683](https://arxiv.org/abs/2105.04683)]
 
 We introduce **SAU-exploration**, an exploration method for the bandit framework with strong theoretical guarantees in the *Multi-Armed Bandit* setting and very efficient implementation in the contextual bandit setting.
-In combination with a *deep neural networks*, SAU-exploration gives rise to a very simple and efficient deep contextual bandit algorithm that achieves higher rewards than state-of-the-art Bayesian algorithms like *Neuaral Linear* (a neural network with an exact linear posterior classifier introduced by [Riquelme et al., ICLR, 2018]), but is as fast as a neural network with <img src="https://render.githubusercontent.com/render/math?math=\epsilon">-greedy exploration.
+In combination with a *deep neural networks*, SAU-exploration gives rise to a very simple and efficient deep contextual bandit algorithm that achieves higher rewards than state-of-the-art Bayesian algorithms like *Neural Linear* (a neural network with an exact linear posterior classifier introduced by [Riquelme et al., ICLR, 2018]), but is as fast as a neural network with <img src="https://render.githubusercontent.com/render/math?math=\epsilon">-greedy exploration.
 
 ![gif](figs/animation.gif)
 
